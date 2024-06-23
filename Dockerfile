@@ -15,5 +15,5 @@ RUN pip3 install -r ./requirements.txt
 COPY app ./
 
 # start command 
-CMD ["sh","./prod.sh"]
+# CMD ["sh","./prod.sh"]
 EXPOSE 3000
