@@ -86,7 +86,7 @@ The project structure is organized as follows:
 
 ## Getting Started
 
-### Installation
+### Installation Without Docker
 
 1. Clone the repository:
 
@@ -109,6 +109,18 @@ To start the FastAPI application, use the following command:
 cd app
 bash dev.bash
 ```
+
+### Installation Using Docker
+
+You don't need to install the dependencies if you're using Docker.
+
+To start the application using Docker, run the following command:
+
+```bash
+docker compose -f compose.dev.yml up -d
+```
+
+This will start the FastAPI application in development mode. Where you can edit your files and it will auto-reload.
 
 ## Deploying the Project
 ```sh

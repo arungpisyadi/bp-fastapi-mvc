@@ -1,6 +1,6 @@
 uvicorn
 fastapi
-pymysql
+mysql-connector-python
 sqlalchemy
 alembic
 jwt

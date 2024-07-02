@@ -1,5 +1,5 @@
 # maintainer info
-FROM python:3.9-slim
+FROM alpine:3.18
 LABEL maintainer="arung@adihara.com"
 
 # copy requirements file
