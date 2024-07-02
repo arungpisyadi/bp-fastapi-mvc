@@ -12,8 +12,8 @@ RUN apk add python3 py3-pip
 RUN pip install --no-cache-dir -r requirements.txt
 
 # copy app
-COPY app ./
+COPY --chown=app:app app ./
 
 # start command 
-CMD ["sh","./prod.sh"]
+CMD ["sh","./dev.sh"]
 EXPOSE 3000
